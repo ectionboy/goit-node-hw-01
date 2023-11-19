@@ -1,20 +1,3 @@
-// console.log('Hello world! (clg)')
-
-// const { error } = require('node:console');
-// const fs = require('node:fs/promises');
-
-// (async () => {
-//         const content = await fs.readFile('test.txt');
-//         console.log(content.toString());
-//     })();
-// const fs = require('node:fs');
-
-// fs.readFile('test.txt', ((error, data) => {
-//     console.log(data.toString())
-//     console.log(error)
-
-// }))
-
 const fn = require("./contacts");
 
 const { Command } = require("commander");
